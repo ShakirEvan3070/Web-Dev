@@ -27,21 +27,31 @@
 //     num++;
 // }
 
-let num = 1;
-while ( num <= 10){
-    console.log(num);
-    if (num % 2 === 0){
-        console.log("Even Number:", num);
-     }
-            num++; 
-}
+// let num = 1;
+// while ( num <= 10){
+//     console.log(num);
+//     if (num % 2 === 0){
+//         console.log("Even Number:", num);
+//      }
+//             num++; 
+// }
+
+// let sum = 0
+// for ( let i = 11; i<=20; i++){
+//     sum = sum + i;
+//     console.log(i, "s are", i);
+// }
+// console.log("Sum of these numbers are:", sum)
 
 
-
-
-
-
-
+// let num = 11;
+// let sum = 0;
+// while (num <=20){
+//     sum = sum + num;
+//     num++;
+//     console.log(num)
+// }
+// console.log("Sum of these numbers are ", sum)
 
 
 
