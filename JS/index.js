@@ -60,6 +60,55 @@
 //     console.log(`${number} x ${i} = ${result}`);
 // }
 
+// const address =  "Faridabad Dhaka"
+// const part = address.slice(2,9)
+// console.log(part)
+
+
+// const sentence = " I am a good boy"
+// console.log(sentence.split(""))
+
+// const friendStr = "Alice,Bob,Charlie,David"
+// const friends =friendStr.split(",")
+// console.log(friends)
+
+// let RealFriends = friendStr.toUpperCase()
+// console.log(RealFriends)
+// console.log(RealFriends.join())
+// const realFriend = ["Alice", "Bob", "Charlie", "David"]
+// console.log(realFriend)
+// console.log(realFriend.join("|"))
+// console.log(realFriend.join("-"))
+
+// const first = "Abid"
+// const last = "Hossain"
+
+// const first2 = "Kabir"
+// const last2 = "Khan"
+
+// const fullName = `${first} ${last}`
+// console.log(fullName)
+
+// const fullName = first + " " + last
+// console.log(fullName)
+
+
+// const fullname2 = first2.concat(" " , last2)
+// console.log(fullname2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
