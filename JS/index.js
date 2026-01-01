@@ -98,24 +98,48 @@
 
 
 
-const sentence = "I am learning web Dev"
+// const sentence = "I am learning web Dev"
 
-let reverse = ""
-for (const letter of sentence){
-    reverse = letter + reverse 
-}
-console.log(reverse)
-
+// let reverse = ""
+// for (const letter of sentence){
+//     reverse = letter + reverse 
+// }
+// console.log(reverse)
 // let sentence = "I am learning web development"
 
+// const bottle = {
+//     brand : "apple",
+//     price : 2000,
+//     color : "white",
+//     isClean : false
+// }
 
+// const subject = {
+//     name : 'biology',
+//     teacher : "Aus Shakir Ahmed Evan",
+//     marks : 85,
+//     isHard : true,
+//     chapters : ['first', 'second','Third','Fourth'],
+//     address : {
+//         city : "Dhaka",
+//         area : "Uttara",
+//         road : "12"
+//     }
+// }
 
+// console.log(bottle.brand)
+// console.log(bottle.price)
+// console.log(bottle.color)
+// console.log(bottle.isClean)
 
-
-
-
-
-
+// console.log(subject.name)
+// console.log(subject.teacher)
+// console.log(subject.marks)
+// console.log(subject.isHard)
+// console.log(subject.chapters[0])
+// console.log(subject.address.city)
+// console.log(subject.address.area)
+// console.log(subject.address.road)
 
 
 
