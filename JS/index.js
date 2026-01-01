@@ -141,8 +141,17 @@
 // console.log(subject.address.area)
 // console.log(subject.address.road)
 
-
-
+const mobile = {
+    Brand : "Samsung",
+    Price : 25000,
+    color : 'Black',
+    camera : "12mp",
+    isNew : true
+}
+for (const prop in mobile){
+    console.log(prop)
+    console.log(mobile[prop])
+}
 
 
 
