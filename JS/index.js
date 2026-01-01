@@ -141,25 +141,37 @@
 // console.log(subject.address.area)
 // console.log(subject.address.road)
 
-const mobile = {
-    Brand : "Samsung",
-    Price : 25000,
-    color : 'Black',
-    camera : "12mp",
-    isNew : true
-}
-for (const prop in mobile){
-    console.log(prop)
-    console.log(mobile[prop])
-}
+// const mobile = {
+//     Brand : "Samsung",
+//     Price : 25000,
+//     color : 'Black',
+//     camera : "12mp",
+//     isNew : true
+// }
+// for (const prop in mobile){
+//     console.log(prop)
+//     console.log(mobile[prop])
+// }
+
+// const fruits = ["Apple", "Banana", "Orange", "Mango"]
+// for (let i=0; i<fruits.length; i++){
+//     console.log(`Index ${i}: ${fruits[i]}`)
+// }
+
+// const fruiit1 = ["Apple", "Banana", "Orange", "Mango"]
+// let i = 0;
+
+// while (i < fruiit1.length){
+//     console.log(`Index ${i}: ${fruiit1[i]}`);
+//     i++;
+// }
 
 
-
-
-
-
-
-
+// let arr = [10,20,30,40,50]
+// for (let i=0; i<arr.length; i++){
+//     console.log(arr)
+// }
+// const fruits = ["Apple", "Banana", "Orange", "Mango"]
 
 
 
