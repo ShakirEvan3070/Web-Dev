@@ -173,6 +173,63 @@
 // }
 // const fruits = ["Apple", "Banana", "Orange", "Mango"]
 
+// const numbers = [1,2,3,4,5,6,7,8,9,10]
+// console.log(numbers)
+// numbers.reverse()
+// console.log(numbers)
+
+
+// function myFunction(p1,p2){
+//     return p1 * p2;
+// }
+// let x = myFunction(4,3);
+// console.log(x)
+// function greet(name, age){
+//     return `Hello ${name} , How are you? Your age is ${age} years old`
+// }
+// console.log(greet("Evan", 25))
+// console.log(greet("Jidan", 27))
+// console.log(greet("Ripa", 34))
+
+// function square(num){
+//     let borgo = num * num;
+//     let cube = num * num * num;
+//     console.log(`the square of the number  ${num} is ${borgo}`)
+//     console.log(`the cube of the number  ${num} is ${cube}`)
+// }
+// square(5)
+// square(10)
+// square(15)
+
+
+function number(num1 , num2 , num3){
+    let add = num1 + num2 + num3;
+    let sub = num1 - num2 - num3;
+    let mul = num1 * num2 * num3;
+    let div = num1 / num2 / num3;
+    console.log(`The addition of the ${num1},${num2},${num3} are : ${add}`);
+    console.log(`The subtraction of the ${num1},${num2},${num3} are : ${sub}`);
+    console.log(`The multiplication of the ${num1},${num2},${num3} are : ${mul}`);
+    console.log(`The division of the ${num1},${num2},${num3} are : ${div}`);
+}
+number(30,10,5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
