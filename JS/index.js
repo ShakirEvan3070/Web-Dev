@@ -202,29 +202,48 @@
 // square(15)
 
 
-function number(num1 , num2 , num3){
-    let add = num1 + num2 + num3;
-    let sub = num1 - num2 - num3;
-    let mul = num1 * num2 * num3;
-    let div = num1 / num2 / num3;
-    console.log(`The addition of the ${num1},${num2},${num3} are : ${add}`);
-    console.log(`The subtraction of the ${num1},${num2},${num3} are : ${sub}`);
-    console.log(`The multiplication of the ${num1},${num2},${num3} are : ${mul}`);
-    console.log(`The division of the ${num1},${num2},${num3} are : ${div}`);
+// function number(num1 , num2 , num3){
+//     let add = num1 + num2 + num3;
+//     let sub = num1 - num2 - num3;
+//     let mul = num1 * num2 * num3;
+//     let div = num1 / num2 / num3;
+//     console.log(`The addition of the ${num1},${num2},${num3} are : ${add}`);
+//     console.log(`The subtraction of the ${num1},${num2},${num3} are : ${sub}`);
+//     console.log(`The multiplication of the ${num1},${num2},${num3} are : ${mul}`);
+//     console.log(`The division of the ${num1},${num2},${num3} are : ${div}`);
+// }
+// number(30,10,5)
+
+
+// sum of even numbers 
+
+
+// const numbers = [1,2,3,4,5,6,7,8,9,10]
+// let sum = 0;
+// function sumOfEvenNumbers(number){
+//     for (const number of numbers){
+//         if(number % 2 === 0){
+//             // console.log(number)
+//             sum = sum + number;
+//         }
+//     }
+// }
+// let result = sumOfEvenNumbers(numbers);
+// console.log("Sum of even numbers are ", sum)
+
+
+const numbers = [1,2,3,4,5,6,7,8,9,10]
+ let sum = 0;
+function sumOffOddNumbers (number){
+    for (const number of numbers){
+        if( number % 2 !== 0){
+            // console.log(number)
+            sum = sum + number;
+        }
+    }
 }
-number(30,10,5)
-
-
-
-
-
-
-
-
-
-
-
-
+sumOffOddNumbers(numbers);
+console.log("Sum of all odd numbers are ", sum)
 
 
 
