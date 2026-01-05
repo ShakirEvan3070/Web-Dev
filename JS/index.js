@@ -285,18 +285,70 @@
 // console.log('Average of odd numbers:', result.average); // 0.5
 
 
-const names = ["Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Heidi", "Ivan", "Judy","Heidi", "Ivan", "Frank"];
-const numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100,10,20,30];
+// const names = ["Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Heidi", "Ivan", "Judy","Heidi", "Ivan", "Frank"];
+// const numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100,10,20,30];
 
-function noDuplicate (array){
-  const unique = [];
-  for(const item of array){
-    if(unique.includes(item) == false){
-      unique.push(item);
-    }
-  }
-  console.log(object)
-  // console.log(array)
-}
-const uniqueArray = noDuplicate(names);
-console.log(uniqueArray)
+// function noDuplicate (array){
+//   const unique = [];
+//   for(const item of array){
+//     if(unique.includes(item) == false){
+//       unique.push(item);
+//     }
+//   }
+//   console.log(unique)
+//   // console.log(array)
+// }
+// const uniqueArray = noDuplicate(names);
+// console.log(uniqueArray)
+
+
+
+
+// const min = Math.min(10,20,5,3,50,1);
+// console.log(min)
+// const max = Math.max(10,20,5,3,50,1);
+// console.log(max)
+
+// const abs = Math.abs(-3);
+// console.log(abs)
+
+// const ceil = Math.ceil(4.2);
+// console.log(ceil)
+// console.log(Math.PI)
+// const floor = Math.floor(4.7);
+// console.log(floor)
+// const random = Math.random();
+// console.log(random)
+
+// const today = new Date()
+// console.log(today)
+
+const date = new Date('2024-06-15T10:30:00')
+console.log(date.getMonth())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
