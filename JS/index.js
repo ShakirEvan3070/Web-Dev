@@ -232,23 +232,71 @@
 // console.log("Sum of even numbers are ", sum)
 
 
-const numbers = [1,2,3,4,5,6,7,8,9,10]
- let sum = 0;
-function sumOffOddNumbers (number){
-    for (const number of numbers){
-        if( number % 2 !== 0){
-            // console.log(number)
-            sum = sum + number;
-        }
+// const numbers = [1,2,3,4,5,6,7,8,9,10]
+//  let sum = 0;
+// function sumOffOddNumbers (number){
+//     for (const number of numbers){
+//         if( number % 2 !== 0){
+//             // console.log(number)
+//             sum = sum + number;
+//         }
+//     }
+// }
+// sumOffOddNumbers(numbers);
+// console.log("Sum of all odd numbers are ", sum)
+
+
+// function oddAverage(numbers){
+//     const odds = [];
+//     for (const number of numbers){
+//         if (number %2 !==0){
+//             // console.log(number)
+//             odds.push(number);
+//         }
+//     }
+//     let sum = 0;
+//     for (const odd of odds){
+//         // console.log(odd)
+//         sum = sum + odd;
+//     }
+//     const length = odds.length;
+//     // const average = sum / length
+//     console.log(sum, average)
+//     // console.log(odds)
+// }
+// const numbers = [1,2,3,4,5,6,7,8,9,10]
+// const average = oddAverage(numbers);
+// console.log("Average of these odd numbers are: ", average)
+
+// Returns an object with the sum and average of odd numbers from `arr`
+// function oddAverage(arr) {
+//   const odds = arr.filter(n => typeof n === 'number' && Math.abs(n) % 2 === 1);
+//   const sum = odds.reduce((acc, v) => acc + v, 0);
+//   const average = odds.length ? sum / odds.length : 0; // 0 if no odd numbers
+//   return { sum, average, count: odds.length, odds };
+// }
+
+// Example usage:
+// const array = [1, 2, 3, 4, 5, -7, 8];
+// const result = oddAverage(array);
+
+// console.log('Odd numbers:', result.odds);          // [1, 3, 5, -7]
+// console.log('Sum of odd numbers:', result.sum);   // 2
+// console.log('Average of odd numbers:', result.average); // 0.5
+
+
+const names = ["Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Heidi", "Ivan", "Judy","Heidi", "Ivan", "Frank"];
+const numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100,10,20,30];
+
+function noDuplicate (array){
+  const unique = [];
+  for(const item of array){
+    if(unique.includes(item) == false){
+      unique.push(item);
     }
+  }
+  console.log(object)
+  // console.log(array)
 }
-sumOffOddNumbers(numbers);
-console.log("Sum of all odd numbers are ", sum)
-
-
-
-
-
-
-
-
+const uniqueArray = noDuplicate(names);
+console.log(uniqueArray)
