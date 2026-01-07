@@ -336,12 +336,36 @@
 // console.log(a,b)
 // console.log(b,a)
 
+// function getMax (num1 , num2){
+//     if(num1 > num2){
+//         return num1;
+//     }
+//     else if (num1<num2){
+//         return num2;
+//     }
+//     else{
+//         return "Both are equal"
+//     }
+// }
+// const maximum = getMax(10,10);
+// console.log("The number that you are looking for is ", maximum)
 
 
-
-
-
-
+function getMin (num1 , num2){
+    if(num1 < num2){
+        return num1;
+    }
+    else if(num1 > num2){
+        return num1;
+    }
+    else{
+        return "Both are equal"
+    }
+    
+}
+const minimum = getMin(5,10);
+// return minimum;
+console.log("The minimum number among them is ", minimum)
 
 
 
