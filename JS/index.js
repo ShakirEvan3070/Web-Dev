@@ -323,11 +323,18 @@
 // const today = new Date()
 // console.log(today)
 
-const date = new Date('2024-06-15T10:30:00')
-console.log(date.getMonth())
+// const date = new Date('2024-06-15T10:30:00')
+// console.log(date.getMonth())
 
 
+// a = 5;
+// b =7;
+// const temp = a;
+// a = b;
+// b= temp;
 
+// console.log(a,b)
+// console.log(b,a)
 
 
 
