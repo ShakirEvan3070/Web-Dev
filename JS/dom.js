@@ -10,3 +10,6 @@ for (const h1 of h1Collection){
     // console.log(h1)
     console.log(h1.innerText)
 }
+const newElement = document.getElementById('Places').innerText = "New Place Added"
+console.log(newElement)
+
