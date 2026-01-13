@@ -61,7 +61,7 @@
 //     for (const product of products){
 //         const price = product.price * product.quantity;
 //         sum = sum + price;
-//         // console.log(product)
+        // console.log(product)
 //     }
 //     return sum;
 // }
